@@ -1,0 +1,33 @@
+body {
+  top: 0;
+}
+
+#navbar {
+  background-color: #d9d5d5;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
+  top: 0;
+}
+
+.navbar-container {
+  height: 100%;
+  /*width: auto;*/
+  position: relative;
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 3em;
+  font-family: 'Shadows Into Light', cursive;
+  color: red;
+  margin-left: 1em;
+}
+
+#container {
+  height: auto
+  /*position: relative;*/
+  margin-top: 100px;
+  padding-top: 100px;
+  width: 100%;
+}

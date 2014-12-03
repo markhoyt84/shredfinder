@@ -1,0 +1,96 @@
+== README
+
+As a user...
+  I would like to be able to sign up easily through facebook
+  I would like to be able to log in easily through facebook
+  I would like to be able to have a profile
+  I would like to be able to follow other skaters that I like
+  I would like to be able to be followed by other skaters
+  I would like to be able to find/view skate spots near my current location
+  I would like to be able to create skate spots near my current location
+  I would like to be able to add info about the skate spots that I create
+  I would like to be able to upload photos of my skate spots
+  I would like to be able to view photos of others skate spots
+  I would like to be able to upload videos of me skating my spots
+  I would like to be able to view videos of others skating spots
+  I would like to be able to filter spots near me by type of spot
+  I would like to be able to vote on others skate spots
+  I would like to be able to create skate groups
+  I would like to be able to send messages to other skaters
+  I would like to be able to vote on spot photos/videos for spot owner
+  I would like to be able to
+  I would like to be able to
+  I would like to be able to
+  I would like to be able to
+
+Spot Categories:
+  Skatepark
+  Skateshop
+  Stairs/Gap
+  Rail
+  Transition
+  Downhill
+
+Spot Requirements:
+  Description
+  Nearest Address(supplied by user or google maps)
+  Latitude, Longitude
+  Name
+
+Site Flow:
+  User logs in goes to home page
+  User looks for spots near them to go skate
+  User finds a new skate spot and creates a spot there
+  User votes on spot on how much they like it
+  User votes on who skates the spot the best
+
+Routes:
+  create user
+  delete user
+  show user
+  update user
+
+  show spot
+  create spot
+  update spot
+
+  create follow
+  delete follow
+
+
+
+Tech Requirements:
+  Rails API for REST API routes
+  Angular front-end, single page app
+  Postgresql DB
+  AWS for photo/video upload, hosting
+  Facebook for login, user auth
+  jQuery
+
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
